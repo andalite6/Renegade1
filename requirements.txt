@@ -1,20 +1,37 @@
-streamlit==1.24.0
-pandas==1.5.3
-numpy==1.24.3
-plotly==5.14.1
-matplotlib==3.7.1
-aiohttp==3.8.4
-requests==2.31.0
-httpx==0.24.1
-python-dateutil==2.8.2
-pyarrow==12.0.1
-pyyaml==6.0.1
-python-dotenv==1.0.0
-pyjwt==2.7.0
-cryptography==41.0.1
-beautifulsoup4==4.12.2
-nest_asyncio==1.5.6
-tqdm==4.65.0
-psutil==5.9.5             
-seaborn==0.12.2
-transformers==4.30.2
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.1.1
+numpy>=1.26.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+
+# Networking and async
+aiohttp>=3.9.0
+requests>=2.31.0
+httpx>=0.25.0
+nest_asyncio>=1.5.8
+
+# Data processing
+python-dateutil>=2.8.2
+pyarrow>=14.0.0
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+
+# Security
+pyjwt>=2.8.0
+cryptography>=41.0.4
+beautifulsoup4>=4.12.2
+
+# System monitoring
+psutil>=5.9.6
+
+# Visualization
+seaborn>=0.13.0
+
+# WhyLabs integration
+whylogs>=1.3.0
+whylabs-client>=0.6.0
+pydantic>=2.4.0
+
+# Optional AI components (if needed)
+transformers>=4.34.0
